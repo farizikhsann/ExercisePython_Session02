@@ -9,7 +9,7 @@ if __name__ == '__main__':
     konversiMenit = (konversiJam*60)
 
     jam = math.floor(konversiJam)
-    menit = konversiMenit - 60
+    menit = konversiMenit % 60
 
     jamTabrakan = jam + pukulJalan
 
